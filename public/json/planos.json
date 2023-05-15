@@ -1,0 +1,16 @@
+{
+   "valor_mensal": 244.99,
+   "desconto_por_cliente": [
+      3.35,
+      3.87,
+      4.22,
+      4.95,
+      5.45,
+      6.25,
+      6.85,
+      7.15,
+      7.49,
+      7.75
+   ],
+   "desconto_plano_anual": 18
+}

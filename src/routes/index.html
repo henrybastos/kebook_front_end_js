@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Kebook • Nossos planos</title>
+      <meta lang="PT-BR" charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+      <script type="module" src="/js/main.js"></script>
+   </head>
+   <body>
+      <h2>Nossos Planos</h2>
+      <p>Selecione o número de clientes que deseja gerenciar para ver nossos valores.</p>
+
+      <span class="sub-heading">SELECIONE A QUANTIDADE DE PERFIS</span>
+
+      <div id="top-container">
+         <div class="controls">
+            <div>
+               <i class="ti ti-arrow-badge-left-filled"></i>
+               <p>1</p> 
+               <i class="ti ti-arrow-badge-right-filled"></i>
+            </div>
+            <input type="range" name="profiles-slider" id="profiles-slider" min="1" max="10" value="1">
+         </div>
+
+         <span class="sub-heading">CADA PERFIL CONTEMPLA</span>
+         
+         <div id="social-media-icons">
+            <i class="ti ti-brand-youtube"></i>
+            <i class="ti ti-brand-instagram"></i>
+            <i class="ti ti-brand-twitter"></i>
+            <i class="ti ti-brand-facebook"></i>
+            <i class="ti ti-brand-wordpress"></i>
+         </div>
+      </div>
+
+      <span class="sub-heading">SELECIONE O PERÍODO DO SEU PAGAMENTO</span>
+
+      <div id="payment-period">
+         <button id="montly">Mensal</button>
+         <button id="anual">Anual</button>
+      </div>
+
+      <div id="bottom-container">
+         <h2>Plano Completo</h2>
+         <span id="profile-amount"></span>
+         <span id="final-price-display">R$ 0,00</span>
+         <span id="discount"></span>
+         <a disabled href="/#">
+            Escolha um período de pagamento.
+         </a>
+      </div>
+   </body>
+</html>
